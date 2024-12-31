@@ -1,0 +1,92 @@
+@font-face {
+    font-family: cattos;
+    src: url('Cattie-Regular.ttf');
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #45f58e;
+    margin: 0;
+    padding: 0;
+}
+
+nav, a {
+    text-align: right;
+    font-size: 30px;
+    padding: 20px;
+    font-family: cattos;
+    text-decoration: none;
+    color: black;
+}
+
+.header { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.container > div {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#users {
+    flex: 0 0 200px;
+    background-color: #e6ba6e;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.user-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.user-item img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-item strong {
+    font-size: 20px;
+    font-family: cattos;
+}
+
+#posts, #comments {
+    flex: 1;
+}
+
+.logo {
+    height: 72px;
+    width: 72px;
+}
+
+.section {
+    background-color: #e6ba6e;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #000; 
+    font-weight: bold;
+}
+
+#title {
+    font-family: cattos;
+    font-size: 72px;
+}
